@@ -390,6 +390,8 @@ img {
 }
 
 .copyright-link {
+    display: block;
+    text-decoration: none;
     color: #f38181;
 }
 
@@ -404,14 +406,17 @@ img {
     font-style: italic;
     font-size: 15px;
     line-height: 24px;
-    color: #cccccc;
     width: 230px;
     height: 40px;
     padding-left: 12px;
 
     border: 1px solid #cccccc;
-    
 }
+
+.footer-subscribe-email::placeholder {
+    color: #cccccc;
+}
+    
 
 .footer-subscribe-btn {
     font-family: "Montserrat", "Arial", sans-serif;
